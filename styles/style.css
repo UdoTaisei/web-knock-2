@@ -1,0 +1,40 @@
+/* 全体の中央寄せレイアウト */
+body {
+  font-family: "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+  background-color: #f7f9fc;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+/* 中央寄せ・幅制限のラッパー */
+.wrapper {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* セクションごとの余白 */
+header, nav, main, section, footer {
+  margin-bottom: 30px;
+  padding: 10px;
+}
+
+/* ナビゲーション横並び */
+nav ul {
+  display: flex;
+  gap: 15px;
+  list-style: none;
+  padding: 0;
+  justify-content: left;  /* これで中央寄せ！ */
+}
+
+nav a {
+  text-decoration: none;
+  color: #0077cc;
+}
+
+nav p {
+    display: flex;
+  justify-content: left;
+}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>自己紹介</title>
+  <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <div class="wrapper">
+    <header>
+        <h1>自己紹介</h1>
+    </header>
+
+    <nav>
+        <p>navi</p>
+        <ul>
+        <li><a href="#profile">プロフィール</a></li>
+        <li><a href="#form">お問い合わせ</a></li>
+        <li><a href="#timetable">時間割</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="profile">
+        <h2>プロフィール</h2>
+        <p>こんにちは</p>
+        <ul>
+            <li>趣味: 旅行</li>
+            <li>好きな食べ物: ラーメン</li>
+            <li>在住: 福岡県</li>
+        </ul>
+
+        </section>
+
+        <section id="form">
+        <h2>お問い合わせ</h2>
+        <form action="#" method="post">
+            <label for="name">名前：</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for="email">メールアドレス：</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <button type="submit">送信</button>
+        </form>
+        </section>
+
+        <section id="timetable">
+        <h2>時間割</h2>
+        <table>
+            <tr>
+            <th>時間＼曜日</th>
+            <th>月</th> <th>火</th> <th>水</th> <th>木</th> <th>金</th>
+            </tr>
+            <tr>
+            <td>1限</td> 
+            <td>数</td> <td>英</td> <td>国</td> <td>体</td> <td>美</td>
+            </tr>
+            <tr>
+            <td>2限</td>
+            <td>国</td> <td>社</td> <td>英</td> <td>音</td> <td>理</td>
+            </tr>
+        </table>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 フッター</p>
+    </footer>
+    </div>
+</body>
+</html>
